@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNBmedia</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h1, h2 {
+      margin: 0 0 20px;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 20px;
+      border: 1px solid #fff;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>CNBmedia</h1>
+  <p>Creative Marketing & Video Production</p>
+  <p>We build ideas, stories and campaigns that move brands forward.</p>
+  <div>
+    <a href="#work" class="btn">View Work</a>
+    <a href="#contact" class="btn">Start a Project</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>Services</h2>
+  <div class="services">
+    <div>
+      <h3>Creative Strategy</h3>
+      <p>We turn insights into ideas.</p>
+    </div>
+    <div>
+      <h3>Video Production</h3>
+      <p>Cinematic content from concept to final cut.</p>
+    </div>
+    <div>
+      <h3>Digital Marketing</h3>
+      <p>Content that reaches the right audience.</p>
+    </div>
+    <div>
+      <h3>Branding</h3>
+      <p>Consistent and strong visual identity.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <h2>Selected Work</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/800x500">
+      <p>Project 1</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/800x500">
+      <p>Project 2</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+  <h2>About</h2>
+  <p>We are a creative marketing and video production agency.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: contact@cnbmedia.vn</p>
+</section>
+
+<footer>
+  © CNBmedia
+</footer>
+
+</body>
+</html>
